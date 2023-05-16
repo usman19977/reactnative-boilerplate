@@ -27,12 +27,6 @@ function ProtectedRoutes() {
         component={AboutContainer}
         options={{drawerLabel: 'About'}}
       />
-
-      <Drawer.Screen
-        name={LOGIN_ROUTE}
-        component={LoginContainer}
-        options={{drawerLabel: 'Login'}}
-      />
     </Drawer.Navigator>
   );
 }

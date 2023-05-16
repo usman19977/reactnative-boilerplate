@@ -1,6 +1,7 @@
 import {View, Text, ScrollView} from 'react-native';
 import React from 'react';
-import {styles} from './post.styles';
+import { styles } from '../../styles/Posts/index.style';
+
 function PostView({navigate, data}) {
   return (
     <View style={styles.container}>
