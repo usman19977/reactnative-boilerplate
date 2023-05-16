@@ -12,11 +12,11 @@ import Main from './App/main';
 function App() {
   const isDarkMode = useColorScheme() === 'dark';
 
- 
+
 
   return (
     <Provider store={store}>
-        <Main />
+      <Main />
     </Provider>
   );
 }
